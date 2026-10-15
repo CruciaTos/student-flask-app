@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Hello! Application deployed automatically. - Version 2"
+    return "Hello! Application deployed automatically."
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
